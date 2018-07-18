@@ -7,37 +7,52 @@
 	background-color: silver;
 	position: fixed;
 	transition: 0.5s ease;
-	z-index: 50;
+	z-index: 999;
 }
+
+
+
 #menu.menu-open{
 	background-color: red;
 	border: 2px solid yellow;
-	color: pink;
+	color: blue;
 }
+
+
+.hidden{
+	display: none;
+}
+
+
 #menu2{
 	position: fixed;
-	background-color: green;
+	z-index: 998;
+	background-color: gold;
 	height: 100vh;
 	width: 100vh;
 	transform-origin: left;
-	transition: 0.5s ease;
+	transition: 2s ease;
+
 }
+
 #menu2 ul{
 	list-style-type: none;
 	padding:0;
 }
+
 #menu2 ul li{
 	padding:5px;
 	font-size: 1.25rem;
 }
+
 #menu2 ul li:hover{
 	text-decoration: underline;
 }
+
+
 #menu2.menu-collapsed{
 	width: 0;
 }
-.hidden{
-	display: none;
-}
+
 
 
