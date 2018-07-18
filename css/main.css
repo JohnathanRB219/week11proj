@@ -1,3 +1,6 @@
+
+
+/*my html button*/
 #menu{
 	border: 0;
 	border-radius: 5px;
@@ -11,19 +14,19 @@
 }
 
 
-
+/*my button with a class of menu button, when the button is opened. when my page is refreshed my button is open (Brain)*/
 #menu.menu-open{
 	background-color: red;
 	border: 2px solid yellow;
 	color: blue;
 }
 
-
+/*my li class hidden but right now there only hidden when my button is open also having trouble getting li to appear (Brain)*/
 .hidden{
 	display: none;
 }
 
-
+/*my div id of menu2, styled when the button is open this changes take effect*/
 #menu2{
 	position: fixed;
 	z-index: 998;
@@ -34,17 +37,17 @@
 	transition: 2s ease;
 
 }
-
+/*my ul effect changes when ubutton is open*/
 #menu2 ul{
 	list-style-type: none;
 	padding:0;
 }
-
+/*when my button is open div and ul li take effect */
 #menu2 ul li{
 	padding:5px;
 	font-size: 1.25rem;
 }
-
+/*when hovering over when div is open take effect on ul li also*/
 #menu2 ul li:hover{
 	text-decoration: underline;
 }
