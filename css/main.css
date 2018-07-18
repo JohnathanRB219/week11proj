@@ -5,7 +5,7 @@
 	border: 0;
 	border-radius: 5px;
 	margin: 20px;
-	padding: 5px;
+	padding: 5px 10px;
 	color: #8b0000;
 	background-color: silver;
 	position: fixed;
@@ -15,11 +15,11 @@
 
 
 /*my button with a class of menu button, when the button is opened. when my page is refreshed my button is open (Brain)*/
-#menu.menu-open{
+/*#menu.menu-open{
 	background-color: red;
 	border: 2px solid yellow;
 	color: blue;
-}
+}*/
 
 /*my li class hidden but right now there only hidden when my button is open also having trouble getting li to appear (Brain)*/
 .hidden{
@@ -27,7 +27,7 @@
 }
 
 /*my div id of menu2, styled when the button is open this changes take effect*/
-#menu2{
+.menu2open{
 	position: fixed;
 	z-index: 998;
 	background-color: gold;
@@ -41,6 +41,8 @@
 #menu2 ul{
 	list-style-type: none;
 	padding:0;
+	text-align: center;
+
 }
 /*when my button is open div and ul li take effect */
 #menu2 ul li{
